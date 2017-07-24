@@ -146,7 +146,7 @@ SELECT @datetimeoffset AS '@datetimeoffset ', @time AS 'time';
   
 ```  
   
- When converting to**datetime**, the date and time values are copied, and the time zone is truncated. When the fractional precision of the **datetimeoffset(n)** value is greater than three digits, the value is truncated. The following code shows the results of converting a `datetimeoffset(4)` value to a `datetime` value.  
+ When converting to **datetime**, the date and time values are copied, and the time zone is truncated. When the fractional precision of the **datetimeoffset(n)** value is greater than three digits, the value is truncated. The following code shows the results of converting a `datetimeoffset(4)` value to a `datetime` value.  
   
 ```  
 DECLARE @datetimeoffset datetimeoffset(4) = '12-10-25 12:32:10.1237 +01:0';  
